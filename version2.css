@@ -1,0 +1,147 @@
+/* Encabezado de la página */
+header{
+    background-color: #444;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding:1rem;
+}
+.menu ul{
+    display: inline-block;
+    color: aliceblue;
+    list-style:none;
+    padding: 10px 15px 0 15px;
+    margin: 10px 10px 10px 10px;
+    border-top: solid 1px black;
+}
+.menu ul li, logo p{
+    color:#444 
+}
+.menu ul:hover{
+    color:yellow;
+    border-top: solid 1px yellow;
+}
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    margin:1vw;
+    color: gray;
+}
+.logo h2{
+    font-size:3em;
+    font-weight:500;
+}
+.logo h2:first-letter{
+    color:yellow
+}
+.logo p{
+    margin-left: 50%;
+}
+.img-fluid{
+    max-width: 100%; 
+    min-height:450px;
+    margin: 40px 50px;
+    padding: 10px 10px 30px 10px;
+    border-radius: 25px 25px;
+    border: solid 10px gray;
+}
+/* cuerpo de la página */
+.lateral{
+    width:30vw;
+    height:745px;
+    float:right;
+}
+.lateral div img{
+    padding: 0 50px;
+    margin-bottom: 40px;
+    border:1px solid silver;
+    width:85%;
+    height: 180px;
+ }
+.lateral hr{ 
+    width:29vw;
+}
+.lateral img{ 
+    padding:5px 5px;
+}
+/* sección clásicos */
+.container__clasicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 65vw;
+}
+.container__clasicos-contenido{
+    text-align: justify;
+    align-content: center;
+    width: 300px;
+    margin: 0 15px;
+    color: gray;
+}
+.container__clasicos-contenido img{
+    width:240px;
+    height: 160px;
+    padding: 5px 5px;
+    border: solid 1px silver;
+    margin-bottom: 10px;
+
+}
+.hr-clasico{ 
+    width:65vw;
+}
+/* Sección tips */
+.container__tips{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+}
+.container__tips-contenido{
+    width: 65vw;  
+    color:grey; 
+    font-size: 1.2em;
+    font-weight: 1.4em;
+}
+.container__tips-contenido img{
+    float: left;
+    margin-right:18px;
+}
+.container__tips-contenido a, span{
+    color: brown;
+}
+.container__tips-contenido hr{
+    border:2px dotted gray;
+}
+/* footer */
+
+footer{
+    background-color: black;
+}
+.container__pie{
+    color: white;
+    font-size:1.2em ;
+    display: flex;
+    flex-direction: row;
+    
+}
+.contenedor__pie-contenido{
+    width: 33%;
+}
+.moda img{
+    float:left;
+    padding: 10px;
+    border: solid 1px grey;
+    max-width: 200px;
+    margin: 10 10px 10px 25px;
+}
+.horoscopo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+.horoscopo img{
+    width: 140px;
+}
+
