@@ -126,7 +126,11 @@ footer{
     
 }
 .contenedor__pie-contenido{
-    width: 33%;
+    width: 32%;
+    margin-left: 1%;
+}
+.moda p{
+    margin-left: 25px;
 }
 .moda img{
     float:left;
